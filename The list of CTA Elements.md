@@ -96,35 +96,71 @@ This document contains all Call-to-Action (CTA) elements found in the **ACTIVE**
 ### Class Components Explained:
 
 1. **`wi_cta`** - Prefix for all tracking classes
+   - **Purpose:** Universal identifier for all CTA tracking classes
+   - **Usage:** Makes it easy to find all CTA elements in analytics
+
 2. **`{type}`** - CTA type:
-   - `tel` - Phone number links
-   - `contact` - Contact us links
+   - `tel` - Phone number links (tel: protocol)
+   - `contact` - Contact us links (contact forms/pages)
+
 3. **`{location}`** - Template/file location (shortened):
-   - `page24hpnm` - page-24hpnm.php
-   - `newlocation` - new-location-page.php
-   - `newstate` - new-state-template.php
-   - `footer` - footer files
-   - `functions` - functions.php
-   - `slider` - slider.php
-   - `callnow` - call-now.php
+   - `page24hpnm` - page-24hpnm.php (24 Hour Plumber Near Me template)
+   - `newlocation` - new-location-page.php (New Location template)
+   - `newstate` - new-state-template.php (State Template)
+   - `newpagetemplate` - new-page-template.php (New Page Template)
+   - `pagefrontl1` - page-front-l1.php (Front Page variant 1)
+   - `newfrontpage` - new-front-page.php (New Front Page)
+   - `newindex` - new-index.php (New Index template)
+   - `pagefullwidth` - page-fullwidth.php (Full Width Page)
+   - `templatesheaderlocation` - templates/header_location.php
+   - `templatespostcode` - templates/postcode_location.php
+   - `header24henm` - header-24henm.php (24 Hour Emergency header)
+   - `headerlocation` - header-location.php (Location header)
+   - `footer` - footer files (various footer templates)
+   - `functions` - functions.php (reusable components)
+   - `slider` - slider.php (slider components)
+   - `callnow` - call-now.php (call now components)
+   - `templatecta` - template-cta.php (CTA template)
+
 4. **`{element}`** - Element type/context:
-   - `btn` - Button elements
-   - `call` - Call-to-action text
-   - `phone` - Phone number display
-   - `float` - Floating elements
-   - `stitem` - Slider items
-   - `service` - Service-related
-   - `exo` - Exo button style
-   - `h2` - H2 heading
-   - `copy` - Copy text
-   - `step1` - Step 1 elements
-   - `notfound` - Not found elements
-   - `text` - Text content
-   - `dynamic` - Dynamic content
+   - `btn` - Button elements (clickable buttons)
+   - `call` - Call-to-action text (CALL NOW text)
+   - `phone` - Phone number display (just the number)
+   - `float` - Floating elements (floating call buttons)
+   - `stitem` - Service items (service list items in sliders/grids)
+   - `service` - Service-related elements (service call buttons)
+   - `exo` - Exo button style (specific button styling)
+   - `h2` - H2 heading elements (headings with phone numbers)
+   - `copy` - Copy text (text content with phone numbers)
+   - `step1` - Step 1 elements (first step in processes)
+   - `notfound` - Not found elements (404/not found page elements)
+   - `text` - Text content (paragraph text with phone numbers)
+   - `dynamic` - Dynamic content (PHP-generated content)
+   - `24hr` - 24-hour specific elements
+   - `stitem` - Service type items (service list items)
+
 5. **`{display}`** - Display type:
-   - `all` - Visible on all devices
-   - `desktop` - Desktop only
-   - `mobile` - Mobile only
+   - `all` - Visible on all devices (desktop, tablet, mobile)
+   - `desktop` - Desktop only (hidden on mobile)
+   - `mobile` - Mobile only (hidden on desktop)
+
+### Special Element Explanations:
+
+**`stitem` (Service Items):**
+- **Meaning:** "Service Type Items" or "Service Items"
+- **Context:** Used for elements in service lists, grids, or sliders
+- **Example:** `wi_cta-tel-functions-stitem-mobile` = Service item phone link in functions.php, mobile version
+- **CSS Context:** Often found in classes like `emergencyplumbingsquad-st-item_column__button`
+
+**`exo` (Exo Button):**
+- **Meaning:** Specific button styling class used in the theme
+- **Context:** Custom styled buttons with specific design
+- **Example:** `wi_cta-tel-newstate-exo-all` = Exo-styled button in state template
+
+**`24hr` (24 Hour):**
+- **Meaning:** 24-hour emergency service specific elements
+- **Context:** Elements specifically for 24-hour emergency services
+- **Example:** `wi_cta-tel-slider-24hr-all` = 24-hour service button in slider
 
 ### Examples:
 - `wi_cta-tel-page24hpnm-btn-all` - Phone button on 24h page, all devices
