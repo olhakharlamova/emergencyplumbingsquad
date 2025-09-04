@@ -8,7 +8,7 @@ This document contains all Call-to-Action (CTA) elements found in the **ACTIVE**
 
 ### Active Child Theme 2 Files (ppl-ninja-child2) - CURRENTLY ACTIVE
 
-| File Path | Line | Element Snippet | Proposed Tracking Class |
+| File Path | Line | Element Snippet | Tracking Class |
 |-----------|------|-----------------|-------------------------|
 | `wp-content/themes/ppl-ninja-child2/page-24hpnm.php` | 477 | `<div class="EmergencyPlumbingsquad-24hr-Button-Container"><a href="tel:(855) 812-2311"` | `wi_cta-tel-page24hpnm-btn-all` |
 | `wp-content/themes/ppl-ninja-child2/page-24hpnm.php` | 621 | `<a href="tel:8558122311">CALL (855) 812-2311 NOW</a>` | `wi_cta-tel-page24hpnm-call-all` |
@@ -31,10 +31,10 @@ This document contains all Call-to-Action (CTA) elements found in the **ACTIVE**
 | `wp-content/themes/ppl-ninja-child2/index.php` | 51 | `<a class="desk" href="tel:8558122311" data-text="CALL (855) 812-2311 NOW">CALL (855) 812-2311 NOW</a>` | `wi_cta-tel-index-desktop` |
 | `wp-content/themes/ppl-ninja-child2/new-index.php` | 47 | `<a class="desk" href="tel:8558122311" data-text="CALL (855) 812-2311 NOW">CALL (855) 812-2311 NOW</a>` | `wi_cta-tel-newindex-desktop` |
 | `wp-content/themes/ppl-ninja-child2/page-fullwidth.php` | 37 | `<a class="desk" href="tel:8558122311" data-text="CALL (855) 812-2311 NOW">CALL (855) 812-2311 NOW</a>` | `wi_cta-tel-pagefullwidth-desktop` |
-| `wp-content/themes/ppl-ninja-child2/functions.php` | 549 | `<a href="tel:(855) 812-2311" id="for_servic_call_btn">(855) 812-2311</a>` | `wi_cta-tel-functions-service-all` |
+| `wp-content/themes/ppl-ninja-child2/functions.php` | 549 | `<a href="tel:(855) 812-2311" id="for_servic_call_btn">(855) 812-2311</a>` | `wi_cta-tel-functions-exo-all` |
 | `wp-content/themes/ppl-ninja-child2/functions.php` | 562 | `<button><a class="exo_button" id="for_servic_call_btn" href="tel:8558122311"><i` | `wi_cta-tel-functions-exo-all` |
-| `wp-content/themes/ppl-ninja-child2/functions.php` | 942 | `<h2 style="margin: 0;font-size: 3em;"><a class="" id="" href="tel:8558122311"><i class="icon-phone"> </i>(855) 812-2311</a></h2>` | `wi_cta-tel-functions-h2-all` |
-| `wp-content/themes/ppl-ninja-child2/functions.php` | 1289 | `<div class="emergencyplumbingsquad-st-item_column__button"><a href="tel:(855) 812-2311"` | `wi_cta-tel-functions-stitem-all` |
+| `wp-content/themes/ppl-ninja-child2/functions.php` | 942 | `<h2 style="margin: 0;font-size: 3em;"><a class="" id="" href="tel:8558122311"><i class="icon-phone"> </i>(855) 812-2311</a></h2>` | `wi_cta-tel-functions-service-all` |
+| `wp-content/themes/ppl-ninja-child2/functions.php` | 1289 | `<div class="emergencyplumbingsquad-st-item_column__button"><a href="tel:(855) 812-2311"` | `wi_cta-tel-functions-stitem-desktop` |
 | `wp-content/themes/ppl-ninja-child2/functions.php` | 1293 | `<div class="emergencyplumbingsquad-st-item_column__button-mobile"><a href="tel:(855) 812-2311"` | `wi_cta-tel-functions-stitem-mobile` |
 | `wp-content/themes/ppl-ninja-child2/new-page-template.php` | 39 | `<a class="desk" href="tel:8558122311" data-text="CALL (855) 812-2311 NOW">CALL (855) 812-2311 NOW</a>` | `wi_cta-tel-newpagetemplate-desktop` |
 | `wp-content/themes/ppl-ninja-child2/new-page-template.php` | 73 | `<button> <a class="exo_button" href="tel:8558122311"><i class="icon-phone"> </i> CALL NOW: (855) 812-2311</a></button>` | `wi_cta-tel-newpagetemplate-btn-all` |
@@ -46,11 +46,11 @@ This document contains all Call-to-Action (CTA) elements found in the **ACTIVE**
 
 ### Include Files (ppl-ninja) - STILL ACTIVE (Parent Theme)
 
-| File Path | Line | Element Snippet | Proposed Tracking Class |
+| File Path | Line | Element Snippet | Tracking Class |
 |-----------|------|-----------------|-------------------------|
-| `wp-content/themes/ppl-ninja/includes/call-now.php` | 51 | `<a href="tel:<?php echo $phone; ?>"><?php echo $float_btn_text; ?></a>` | `wi_cta-tel-callnow-float-all` |
-| `wp-content/themes/ppl-ninja/includes/call-now.php` | 142 | `<p class="phone"><a href="tel:<?php echo $phone; ?>" title="Call US Now!"><?php echo $phone; ?></a></p>` | `wi_cta-tel-callnow-phone-all` |
-| `wp-content/themes/ppl-ninja/includes/call-now.php` | 201 | `<a class="btn btn-lg btn-success" href="tel:<?php echo $phone; ?>" title="Call US Now!"><?php echo $phone; ?></a>` | `wi_cta-tel-callnow-btn-all` |
+| `wp-content/themes/ppl-ninja/includes/call-now.php` | 51 | `<a href="tel:<?php echo $phone; ?>"><?php echo $float_btn_text; ?></a>` | `wi_cta-tel-includes-callnow-float` |
+| `wp-content/themes/ppl-ninja/includes/call-now.php` | 142 | `<p class="phone"><a href="tel:<?php echo $phone; ?>" title="Call US Now!"><?php echo $phone; ?></a></p>` | `wi_cta-tel-includes-callnow-preview` |
+| `wp-content/themes/ppl-ninja/includes/call-now.php` | 201 | `<a class="btn btn-lg btn-success" href="tel:<?php echo $phone; ?>" title="Call US Now!"><?php echo $phone; ?></a>` | `wi_cta-tel-includes-callnow-widget` |
 | `wp-content/themes/ppl-ninja/includes/slider.php` | 176 | `<div class="EmergencyPlumbingsquad-24hr-Button-Container"><a href="tel:<?php echo $phone_number; ?>" style="background-color:<?php echo $button_color ?>" class="EmergencyPlumbingsquad-24hr-Button">CALL <?php echo $phone_number; ?></a></div>` | `wi_cta-tel-slider-24hr-all` |
 | `wp-content/themes/ppl-ninja/includes/slider.php` | 201 | `<div class="emergencyplumbingsquad-st-item_column__button"><a href="tel:8558122311"` | `wi_cta-tel-slider-stitem-all` |
 | `wp-content/themes/ppl-ninja/includes/slider.php` | 204 | `<div class="emergencyplumbingsquad-st-item_column__button-mobile"><a href="tel:<?php echo $phone_number; ?>"` | `wi_cta-tel-slider-stitem-mobile` |
